@@ -6840,6 +6840,7 @@ declare interface ModuleFactoryCreateData {
 declare interface ModuleFactoryCreateDataContextInfo {
 	issuer: string;
 	issuerLayer?: null | string;
+	fromLoaderContext?: boolean;
 	compiler: string;
 }
 declare interface ModuleFactoryResult {
